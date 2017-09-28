@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Foto Foto</title>
+<link href="https://fonts.googleapis.com/css?family=Pangolin" rel="stylesheet">
+<style>
+
+* {
+  margin: 0;
+}
+body {
+  font-family: sans-serif;
+  background-color: rgb(56, 255, 138);
+}
+header{
+  position: relative;
+  text-align: center;
+}
+h1 {
+/*
+  text-align: center;
+  margin: 0;
+  background-color: black;
+  color: white;
+  display: inline-block;
+  padding:50px;
+  width: 275px;
+  height: 325px;
+  border: 15px solid #fbf4e6;
+  border-bottom: 100px solid #fbf4e6;
+  box-shadow: 0px 0px 20px 0px black;
+  box-sizing: border-box;
+  font-family: 'Pangolin', sans-serif;
+  font-size: 2em;
+  letter-spacing: 10px;
+  line-height: 50px;*/
+}
+img{
+  width: 100px;
+  height: 100px;
+}
+
+nav .navbox {
+}
+
+/*nav ul {
+list-style: none;
+margin: 0;
+padding: 0;
+background-color: white;
+width: 100%;
+overflow: hidden;
+
+
+}*/
+
+.navbox {
+display: flex;
+align-items: center;
+background-color: white;
+justify-content: center;
+flex-direction: row;
+flex-wrap: wrap;
+border-top: 4px dashed black;
+border-bottom: 4px dashed black;
+}
+.navitem{
+
+}
+
+a {
+
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  display: inline;
+  float:right;
+  padding:25px;
+  font-size: 2em;
+
+
+}
+
+a:hover {
+  color: black;
+  text-shadow: 0px 0px 30px rgba(0, 121, 255, 0.74);
+}
+
+.headerbox {
+  display: flex;
+  padding: 50px;
+  align-items:center;
+  flex-wrap: wrap;
+  margin: auto;
+  align-content: space-around;
+
+}
+.headeritem {
+  padding: 30px;
+margin: auto;
+    /*text-align: center;*/
+    background-color: black;
+    color: white;
+    /*display: inline-block;*/
+    /*padding:50px;*/
+    width: 275px;
+    height: 325px;
+    border: 15px solid #fbf4e6;
+    border-bottom: 100px solid #fbf4e6;
+    box-shadow: 0px 0px 20px 0px black;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 3px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.box1 {
+  transform: rotate(-10deg);
+  z-index: 2;
+}
+.box2 {
+  transform: rotate(3deg);
+  z-index: 0;
+  background-image: url("https://static1.squarespace.com/static/536ab1c7e4b00b5a4b66b2a6/551470a0e4b0b69608f73053/551473d9e4b07f1a8487cc85/1427403738851/grin-and-bear-booth-photobooth-181352.jpg");
+
+}
+
+.box3 {
+  transform: rotate(15deg);
+  z-index: 1;
+  background-image: url("http://www.booth-o-rama.com/v1site_images/slideshow/gallery1/Website4.jpg");
+
+}
+
+.headeritem h1 {
+  font-family: 'Pangolin', sans-serif;
+  font-size: 3em;
+  letter-spacing: 10px;
+  line-height: 60px;
+}
+
+.contentbox {
+  display:flex;
+  flex-wrap: wrap;
+  margin: auto;
+  flex-direction: row;
+  /*align-content: space-between;*/
+  padding: 20px 0;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.contentitem {
+  flex: 1;
+  padding: 20px;
+}
+.aside1 {
+  /*border-right: 5px dashed black;*/
+  flex: 0 1 30px;
+}
+.aside2 {
+  /*border-left: 5px dashed black;*/
+min-width: 350px;
+align-self: flex-end;
+}
+.contentitem h2 {
+  text-align: center;
+  align-self: flex-start;
+  min-width: 300px;
+
+}
+
+footer{
+  position:absolute;
+  bottom:0;
+  width:100%;
+  height:25px;   /* Height of the footer */
+  background:#6cf;
+  /*padding-top: 10px;*/
+  /*padding-left: 10px;*/
+}
+
+</style>
+</head>
+
+<body>
+  <header>
+    <div class="headerbox">
+      <div class="headeritem box1">
+        <h1>foto foto!</h1>
+      </div>
+      <div class="headeritem box2">
+    </div>
+      <div class="headeritem box3">
+      </div>
+    </div>
+  </header>
+  <nav>
+    <div class="navbox">
+      <div class="navitem">
+        <a href="#">home</a>
+      </div>
+      <div class="navitem">
+        <a href="#">services</a>
+      </div>
+      <div class="navitem">
+        <a href="#">about</a>
+      </div>
+      <div class="navitem">
+        <a href="#">contact</a>
+      </div>
+      <div class="navitem">
+        <a href="#">gallery</a>
+      </div>
+    </div>
+  </nav>
+  <div class="contentbox">
+    <div class="contentitem">
+      <h2>Vancouver, WA based full service photo booth event specialists!</h2>
+    </div>
+
+  <div class="contentitem aside2">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+  </div>
+
+
+    <!-- <footer> © 2017 Foto Foto LLC </footer> -->
+
+
+</body>
+</html>
